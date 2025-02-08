@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahabodhi Temple</title>
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://static.toiimg.com/thumb/47081465.cms?resizemode=75&width=1200&height=900') no-repeat center center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            margin: 0 0 20px;
+            color: rgb(255, 255, 255); 
+        }
+
+        .overlay {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: justify;
+            color: #f5f5f5;
+        }
+
+        .overlay p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 3.5rem;
+            }
+
+            .overlay {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 2.5rem;
+            }
+
+            .overlay {
+                font-size: 0.9rem;
+            }
+        }
+        nav {
+            width: 100%;
+            background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 50;
+            display: flex;
+            justify-content:center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff5733;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="information.html">Information</a></li>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="joinus.html">Join us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul> 
+    </nav>
+    <div class="container">
+        <h1 class="title">Mahabodhi Temple</h1>
+        <div class="overlay">
+            <p>
+                The Mahabodhi Temple Complex in Bodh Gaya, Bihar, is one of the most revered pilgrimage sites for Buddhists worldwide. Recognized as a UNESCO World Heritage Site in 2002, it marks the sacred spot where Prince Siddhartha Gautama attained enlightenment under the Bodhi Tree around 500 BCE and became the Buddha. The site features a magnificent 50-meter-high pyramidal temple, originally established by Emperor Ashoka in the 3rd century BCE and later reconstructed during the Gupta period. The temple is adorned with intricate carvings depicting Buddha’s life and teachings. Central to the complex is the Vajrasana, or Diamond Throne, where Buddha meditated, and the Bodhi Tree, a direct descendant of the original tree. Pilgrims from all over the world visit the site to meditate under the tree, circumambulate the temple, and pay homage to the Sacred Lotus Pond, adding to the profound spiritual and historical significance of this iconic monument.
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>

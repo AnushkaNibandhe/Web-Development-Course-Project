@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humayun's Tomb</title>
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://s7ap1.scene7.com/is/image/incredibleindia/humayuns-tomb-delhi-1-attr-hero?qlt=82&ts=1727352156717') no-repeat center center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        nav {
+            width: 100%;
+            background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 50;
+            display: flex;
+            justify-content:center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff5733;
+        }
+        .container {
+            text-align: center;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 0 0 20px;
+            color: rgb(255, 255, 255); 
+        }
+
+        .overlay {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: justify;
+            color: #f5f5f5;
+        }
+
+        .overlay p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 3.5rem;
+            }
+
+            .overlay {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 2.5rem;
+            }
+
+            .overlay {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="information.html">Information</a></li>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="joinus.html">Join us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul> 
+    </nav>
+    <div class="container">
+        <h1 class="title">Humayun's Tomb</h1>
+        <div class="overlay">
+            <p>
+                Humayun's Tomb, built in 1570, is a magnificent example of Mughal architecture and was the first garden-tomb in the Indian subcontinent. Commissioned by Emperor Humayun’s wife, Empress Bega Begum, and designed by Persian architect Mirak Mirza Ghiyas, the tomb set a precedent for future Mughal mausoleums, including the iconic Taj Mahal. The structure, made of red sandstone with white marble inlays, stands at the center of a Charbagh (four-part) garden, symbolizing the Islamic concept of paradise. The tomb complex also houses the graves of other Mughal royals, making it a significant site of historical and cultural importance. Its architectural features, such as the double dome and the harmonious proportions, reflect a blend of Persian, Central Asian, and Indian influences. The site was declared a UNESCO World Heritage Site in 1993 and is celebrated for its architectural innovation and historical significance.
+
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>

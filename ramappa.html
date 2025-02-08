@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramappa Temple</title>
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ramappa_Temple_%28Human_Scale%29.jpg/1280px-Ramappa_Temple_%28Human_Scale%29.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            margin: 0 0 20px;
+            color: rgb(255, 255, 255); 
+        }
+
+        .overlay {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: justify;
+            color: #f5f5f5;
+        }
+
+        .overlay p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 3.5rem;
+            }
+
+            .overlay {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 2.5rem;
+            }
+
+            .overlay {
+                font-size: 0.9rem;
+            }
+        }
+        nav {
+            width: 100%;
+            background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 50;
+            display: flex;
+            justify-content:center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff5733;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="information.html">Information</a></li>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="joinus.html">Join us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul> 
+    </nav>
+    <div class="container">
+        <h1 class="title">Ramappa Temple</h1>
+        <div class="overlay">
+            <p>
+                The Ramappa Temple, also known as the Rudreshwara Temple, is a UNESCO World Heritage Site located in Palampet, Telangana, India. Built in the 13th century during the reign of the Kakatiya dynasty, it is a stunning example of Kakatiya architecture and craftsmanship. The temple is dedicated to Lord Shiva and is named after its chief sculptor, Ramappa. It features intricate carvings, delicately sculpted pillars, and a unique floating brick construction used for its lightweight shikhara (tower). The temple’s exquisite sculptures depict scenes from Hindu mythology, showcasing the artistic brilliance of the era. Surrounded by a serene landscape, the Ramappa Temple is a testament to the cultural and architectural legacy of the Kakatiyas.
+   </p>
+        </div>
+    </div>
+</body>
+</html>

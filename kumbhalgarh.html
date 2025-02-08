@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumbhalgarh Fort</title>
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://indiaforbeginners.com/wp-content/uploads/2020/04/Adobe-Kumbalgarh-.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        nav {
+            width: 100%;
+            background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 50;
+            display: flex;
+            justify-content:center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff5733;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            margin: 0 0 20px;
+            color: rgb(255, 255, 255); 
+        }
+
+        .overlay {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: justify;
+            color: #f5f5f5;
+        }
+
+        .overlay p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 3.5rem;
+            }
+
+            .overlay {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 2.5rem;
+            }
+
+            .overlay {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="information.html">Information</a></li>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="joinus.html">Join us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul> 
+    </nav>
+
+    <div class="container">
+        <h1 class="title">Kumbhalgarh Fort</h1>
+        <div class="overlay">
+            <p>
+                Located in the Rajsamand district of Rajasthan, Kumbhalgarh Fort is a remarkable example of Rajput military architecture and one of the largest forts in India. Built in the 15th century by Rana Kumbha, it served as the strategic stronghold of the Mewar kingdom. The fort is famous for its massive walls, which stretch over 36 kilometers and are the second-longest continuous fortification in the world, after the Great Wall of China. Within the fort's boundaries lie several temples, including the Kumbheshwar Temple, as well as palaces and gardens that showcase the splendor of Rajput architecture. The fort’s design reflects a blend of military and cultural features, with its strategic location on the westerly ridge of the Aravalli Range providing natural defense against invaders. It has witnessed many historical events, including significant battles. The site also includes breathtaking panoramic views of the surrounding hills and plains, making it a visually stunning cultural landmark.
+
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>
