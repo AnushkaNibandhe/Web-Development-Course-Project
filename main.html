@@ -58,6 +58,7 @@
             font-weight: 700;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            display: none; /* Initially hidden */
          }
         .container {
             position: relative;
@@ -78,7 +79,6 @@
               <li class="nav-item"><a class="nav-link" href="index.html">Index</a></li>
               <li class="nav-item"><a class="nav-link" href="joinus.html">Join Us</a></li>
               <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-
             </ul>
           </div>
         </div>
@@ -91,5 +91,24 @@
         </div>
     </div>
 
+    <!-- Add jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Your custom JavaScript code -->
+    <script>
+        $(document).ready(function() {
+            // Fade in the h1 element over 2 seconds
+            $('h1').fadeIn(2000);
+
+            // Add hover effect to navbar links
+            $('.navbar a').hover(
+                function() {
+                    $(this).css('color', 'rgb(210, 60, 60)'); // Change color on hover
+                },
+                function() {
+                    $(this).css('color', 'white'); // Revert color on mouse out
+                }
+            );
+        });
+    </script>
 </body>
 </html>
